@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+  padding: 40px;
+  background: #bfcadd;
+text-align: center;
+  color: white;
+-webkit-text-stroke-width:2.5px;
+    -webkit-text-stroke-color: #31313b;
+  font-size: 90px;
+  font-family:Baby Darling;
+	
+}
+h2{
+text-align: center;
+  color: #31313b;
+  font-size: 35px;
+  font-family:Baby Darling;
+}
+		
+p {
+	font-size: 20px;
+	font-family:Geneva;
+	
+}
+
+.image1{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	text-align: center;
+	width: 400px;
+}
+.image2{
+display:block;
+	margin-left: auto;
+	margin-right: auto;
+
+	text-align: center;
+	width: 400px;
+}
+/* Create three unequal columns that floats next to each other */
+columnleft {
+  float: left;
+	height: 1000px;
+	width: 10%;
+  padding: 60px;
+	color:white; 
+}
+
+/* Left and right column */
+columnright {
+  width: 10%;
+	float: right;
+	padding: 60px;
+	color:white;
+}
+
+/* Middle column */
+.columnmid {
+	float:center;
+  width: 50%;
+	color:#d2907a;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ul {
+	font-family:DK Lemon Yellow Sun;
+	 font-size: 35px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6e727d;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #31313b;
+}
+
+.porftable{
+	margin-left: auto;
+  margin-right: auto;
+}
+	
+	
