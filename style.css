@@ -22,55 +22,36 @@ text-align: center;
 p {
 	font-size: 20px;
 	font-family:Geneva;
-	
+	text-align:center; 
 }
 
 .image1{
-	display:block;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 50%;
-	text-align: center;
+	align-content: center;
 	width: 400px;
+	flex: 50%;
 }
 .image2{
-display:block;
-	margin-left: auto;
-	margin-right: auto;
-
-	text-align: center;
 	width: 400px;
 }
-/* Create three unequal columns that floats next to each other */
-columnleft {
-  float: left;
-	height: 1000px;
-	width: 10%;
-  padding: 60px;
-	color:white; 
+
+.flex{
+    display:flex;
+    flex-direction:row;
+    /* flex-direction: row keeps them side by side, columns keeps them top and bottom of each other */
+    justify-content: flex-start;
+    /*  justify-content: flex-start moves everything to the left, flex-end moves everything to the right */
+    padding: 0px 100px 0px 100px;
 }
 
-/* Left and right column */
-columnright {
-  width: 10%;
-	float: right;
-	padding: 60px;
-	color:white;
+.flexbox{
+    flex:60%;
+    
+    /* flex: determines how big it is, the larger the number, the bigger the section */
 }
 
-/* Middle column */
-.columnmid {
-	float:center;
-  width: 50%;
-	color:#d2907a;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 ul {
 	font-family:DK Lemon Yellow Sun;
 	 font-size: 35px;
@@ -98,9 +79,52 @@ li a:hover {
   background-color: #31313b;
 }
 
-.porftable{
+.porfolio{
 	margin-left: auto;
   margin-right: auto;
+ 
 }
-	
-	
+
+	figure {
+	width: 200px;
+  float: right;
+  text-align: center;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 1em;
+  padding: 1em;
+  min-width: 200px;
+  }
+  
+
+img{
+        max-width:100%;
+        max-height: 100%;
+        display: block; 
+        }
+        
+.column3{
+    flex: 33.33%;
+    padding: 5px 5px 5px 5px;
+}
+
+.row{
+    display:flex;
+}
+
+div.container{
+   align-content: center;
+}
+
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+.column4{
+    flex: 25%;
+    padding: 5px;
+    width: 20%;
+
+}
