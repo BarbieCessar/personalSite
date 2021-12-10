@@ -18,6 +18,13 @@ text-align: center;
   font-size: 35px;
   font-family:Baby Darling;
 }
+h3 {
+text-align: left;
+  color: #31313b;
+  font-size: 35px;
+  font-family:DK Lemon Yellow Sun;;
+    
+}
     
 		
 p {
@@ -323,9 +330,12 @@ table {
 }
 
 .responsive {
+margin-left: auto;
+	margin-right: auto;
+	align-content: center;
 	padding: 0 2px;
-	float: left;
 	width: 24.9999999%;
+	float: left;
 }
 
 @media only screen and (max-width: 700px) {
@@ -358,12 +368,13 @@ table {
 .textoverlay {
   position: relative;
   text-align: center;
-  color: #231709;
+  color: #31313b;
   font-family: 'IM Fell English', serif;
   font-size: 20px;
 }
 
 .centered mark{
-	background-color: #9A7B4F;
+	background-color: white;
 }
+
 
