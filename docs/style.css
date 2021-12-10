@@ -1,0 +1,369 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+  padding: 40px;
+  background: #bfcadd;
+text-align: center;
+  color: white;
+-webkit-text-stroke-width:2.5px;
+    -webkit-text-stroke-color: #31313b;
+  font-size: 90px;
+  font-family:Baby Darling;
+	
+}
+h2{
+text-align: center;
+  color: #31313b;
+  font-size: 35px;
+  font-family:Baby Darling;
+}
+    
+		
+p {
+	font-size: 20px;
+	font-family:Geneva;
+	text-align:center; 
+	padding: 0em 3em 0em 3em;
+	}
+p.left
+{
+font-size: 20px;
+	font-family:Geneva;
+	text-align:left; 
+	 padding: 0em 1em 0em 1em ;
+    
+
+}
+
+.image1{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	align-content: center;
+	width: 400px;
+	flex: 50%;
+}
+.image2{
+	width: 400px;
+	padding: 5px 5px 5px 5px;
+		margin-left: auto;
+	margin-right: auto;
+}
+.image3{
+	width: 700px;
+	padding: 5px 5px 5px 5px;
+		margin-left: auto;
+	margin-right: auto;
+	}
+
+.flex{
+    display:flex;
+    flex-direction:row;
+    /* flex-direction: row keeps them side by side, columns keeps them top and bottom of each other */
+    justify-content: flex-start;
+    /*  justify-content: flex-start moves everything to the left, flex-end moves everything to the right */
+    padding: 0px 100px 0px 100px;
+}
+
+.flex1{
+    display:flex;
+    flex-direction:row;
+    /* flex-direction: row keeps them side by side, columns keeps them top and bottom of each other */
+    justify-content: flex-start;
+    /*  justify-content: flex-start moves everything to the left, flex-end moves everything to the right */
+    padding: 20px 100px 20px 100px;
+    }
+    
+.flex2{
+    display:flex;
+    flex-direction:row;
+    /* flex-direction: row keeps them side by side, columns keeps them top and bottom of each other */
+    justify-content: flex-start;
+    /*  justify-content: flex-start moves everything to the left, flex-end moves everything to the right */
+    }
+.flexbox{
+    flex:60%;
+    
+    /* flex: determines how big it is, the larger the number, the bigger the section */
+}
+
+ul {
+	font-family:DK Lemon Yellow Sun;
+	 font-size: 35px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6e727d;
+}
+
+li {
+  float: left;
+}
+
+li a, li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #31313b;
+}
+
+.porfolio{
+	margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+	figure {
+	width: 200px;
+  float: right;
+  text-align: center;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 1em;
+  padding: 1em;
+  min-width: 200px;
+  }
+  
+
+img{
+        max-width:100%;
+        max-height: 100%;
+        display: block; 
+        }
+        
+.column3{
+    flex: 33.33%;
+    padding: 5px 5px 5px 5px;
+}
+.column2{
+    flex: 50%;
+    padding: 5px 5px 5px 5px;
+		margin-left: auto;
+	margin-right: auto;
+	align-content: center;
+}
+
+.row{
+    display:flex;
+}
+
+    
+div.container{
+   align-content: center;
+}
+
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+.column4{
+    flex: 25%;
+    padding: 5px;
+    width: 20%;
+
+}
+
+
+ul.navbar{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6e727d;
+    color: white;
+    text-align: left;
+}
+
+div.links {
+   list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    color: white;
+    text-align: center;
+    
+}
+
+li.navbar{
+    float: left;
+}
+
+li.navbar a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navbar a:hover{
+color: white;
+background-color: #41434a;
+}
+
+li a, .dropbtn{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+    background-color: #6e727d;
+    color: white;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    z-index: 1;
+    background-color:#6e727d;
+}
+
+.dropdown-content a{
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    background-color:#41434a;
+}
+
+.footer {
+display: block;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 80px;
+  background-color: #bfcadd;
+  }
+  
+li.footer a:hover {
+  background-color: #a3abba;
+  color: white;
+   display: block;
+  }
+  
+.links {
+display: block;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 80px;
+  background-color: white;
+  
+}
+ul.links {
+    list-style-type:none;
+  
+    overflow: hidden;
+   color: white;
+    text-align: left;
+    
+}
+
+div.resume {
+width: 800px;
+ list-style-type:none;
+  margin: 50px;
+    padding: 50px;
+    overflow: hidden;
+    text-align: center;
+   
+    
+}
+
+table {
+ background-color: #eaaa95;
+    color: white;
+     padding: 5px 5px 5px 5px;
+		margin-left: auto;
+	margin-right: auto;
+	align-content: center;
+    
+}
+
+.gallery{
+	border: 1px solid #371D10;
+}
+
+.gallery:hover {
+	border: 2px solid #4A2512;
+}
+
+.gallery img{
+	width: 100%;
+	height: auto;
+	opacity: 0.5;
+}
+
+.desc{
+	padding :15px;
+	text-align: center;
+	font-family: 'IM Fell English', serif;
+	font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+	padding: 0 2px;
+	float: left;
+	width: 24.9999999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.textoverlay {
+  position: relative;
+  text-align: center;
+  color: #231709;
+  font-family: 'IM Fell English', serif;
+  font-size: 20px;
+}
+
+.centered mark{
+	background-color: #9A7B4F;
+}
+
